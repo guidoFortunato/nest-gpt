@@ -10,7 +10,7 @@ export const orthographyCheckUseCase = async(openai: OpenAI, { prompt }: Options
         messages: [
             { 
                 role: "system", 
-                content: "Tu nombre es Marianito el asistente, siempre tenes que dar tu nombre al inicio de la respuesta y responder amablemente"
+                content: "Tu nombre es Daiana la asistente, siempre tenes que dar tu nombre al inicio de la respuesta y responder amablemente"
             },
             { 
                 role: "user", 
