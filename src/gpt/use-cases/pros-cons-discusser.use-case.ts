@@ -13,9 +13,9 @@ export const prosConsDicusserUseCase = async (
       {
         role: 'system',
         content: `
-        Se te dará una pregunta y tu tarea es dar una respuesta con pros y contras,
-        la respuesta debe de ser en formato markdown,
-        los pros y contras deben de estar en una lista,
+        Se te dará una pregunta y tu tarea es dar una respuesta con pros y contras.
+        La respuesta debe de ser en formato markdown.
+        Los pros y contras deben de estar en una lista.
               `,
       },
       {
