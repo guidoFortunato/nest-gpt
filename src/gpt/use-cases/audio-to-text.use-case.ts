@@ -18,7 +18,7 @@ export const audioToTextUseCase = async (openai: OpenAI, options: Options) => {
     // response_format: 'vtt', // 'srt
     response_format: 'verbose_json', // 'srt
   });
-  console.log({ response });
+  // console.log({ response });
 
   return response;
 };
